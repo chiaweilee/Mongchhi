@@ -28,6 +28,7 @@ export default () => (
     api.addLayouts(() => (
       [
         {
+          id: 'mongchhi-antd-theme-layout',
           file: path.join(api.paths.absTmpPath, tmpPath)
         },
       ]

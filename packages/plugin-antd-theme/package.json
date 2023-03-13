@@ -15,7 +15,7 @@
     "dev": "father dev",
     "watch": "father dev"
   },
-  “peerDependecies": {
+  "peerDependecies": {
     "antd": "5.x"
   },
   "dependencies": {

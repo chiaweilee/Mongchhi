@@ -9,8 +9,8 @@ export default (api: IApi) => {
   // 第一部分：项目应用逻辑
   const localThemeFile = path.join(api.cwd, themeFilePath);
   // 本地有主题配置，进行加载
-  if (fs.existsSync(localThemeFile))) {
-    const tmpPath = `${DIR_NAME}/antd-theme-layout`;
+  if (fs.existsSync(localThemeFile)) {
+    const tmpPath = `${DIR_NAME}/antd-theme-layout.tsx`;
     api.onGenerateFiles(() => {
       api.writeTmpFile({
         noPluginDir: true,

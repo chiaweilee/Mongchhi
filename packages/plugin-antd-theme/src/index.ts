@@ -25,6 +25,13 @@ export default () => (
 `,
       });
     });
+    api.addLayouts(() => ({
+      [
+        {
+          file: path.join(api.paths.absTmpPath, tmpPath)
+        },
+      ]
+    }));
   }
 
   const getAntdThemeFromFile = (cwd = api.cwd as string): object => {
